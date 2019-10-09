@@ -19,7 +19,7 @@
     "redux": "^4.0.4",
     "redux-devtools": "^3.5.0",
     "redux-devtools-extension": "^2.13.8",
-    "shortid": "^2.2.15"
+    "uuidv4": "^5.0.1"
   },
   "devDependencies": {
     "@mate-academy/eslint-config": "*",
