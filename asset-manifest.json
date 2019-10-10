@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/react_films-list-use-raw-redux-copy/static/css/main.7fe3b127.chunk.css",
-    "main.js": "/react_films-list-use-raw-redux-copy/static/js/main.03298d58.chunk.js",
-    "main.js.map": "/react_films-list-use-raw-redux-copy/static/js/main.03298d58.chunk.js.map",
-    "runtime~main.js": "/react_films-list-use-raw-redux-copy/static/js/runtime~main.f3dec76c.js",
-    "runtime~main.js.map": "/react_films-list-use-raw-redux-copy/static/js/runtime~main.f3dec76c.js.map",
+    "main.css": "/react_films-list-use-raw-redux-copy/static/css/main.36605e0d.chunk.css",
+    "main.js": "/react_films-list-use-raw-redux-copy/static/js/main.169d3447.chunk.js",
+    "main.js.map": "/react_films-list-use-raw-redux-copy/static/js/main.169d3447.chunk.js.map",
+    "runtime-main.js": "/react_films-list-use-raw-redux-copy/static/js/runtime-main.8c1344f7.js",
+    "runtime-main.js.map": "/react_films-list-use-raw-redux-copy/static/js/runtime-main.8c1344f7.js.map",
     "static/css/2.1ab5750d.chunk.css": "/react_films-list-use-raw-redux-copy/static/css/2.1ab5750d.chunk.css",
-    "static/js/2.bc69c30a.chunk.js": "/react_films-list-use-raw-redux-copy/static/js/2.bc69c30a.chunk.js",
-    "static/js/2.bc69c30a.chunk.js.map": "/react_films-list-use-raw-redux-copy/static/js/2.bc69c30a.chunk.js.map",
+    "static/js/2.8f106110.chunk.js": "/react_films-list-use-raw-redux-copy/static/js/2.8f106110.chunk.js",
+    "static/js/2.8f106110.chunk.js.map": "/react_films-list-use-raw-redux-copy/static/js/2.8f106110.chunk.js.map",
     "index.html": "/react_films-list-use-raw-redux-copy/index.html",
-    "precache-manifest.f55cf8a946f691236e662f331c0efc7e.js": "/react_films-list-use-raw-redux-copy/precache-manifest.f55cf8a946f691236e662f331c0efc7e.js",
+    "precache-manifest.ae80f8fac38d5376a34c2e0a31dc03df.js": "/react_films-list-use-raw-redux-copy/precache-manifest.ae80f8fac38d5376a34c2e0a31dc03df.js",
     "service-worker.js": "/react_films-list-use-raw-redux-copy/service-worker.js",
     "static/css/2.1ab5750d.chunk.css.map": "/react_films-list-use-raw-redux-copy/static/css/2.1ab5750d.chunk.css.map",
-    "static/css/main.7fe3b127.chunk.css.map": "/react_films-list-use-raw-redux-copy/static/css/main.7fe3b127.chunk.css.map"
-  }
+    "static/css/main.36605e0d.chunk.css.map": "/react_films-list-use-raw-redux-copy/static/css/main.36605e0d.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c1344f7.js",
+    "static/css/2.1ab5750d.chunk.css",
+    "static/js/2.8f106110.chunk.js",
+    "static/css/main.36605e0d.chunk.css",
+    "static/js/main.169d3447.chunk.js"
+  ]
 }
