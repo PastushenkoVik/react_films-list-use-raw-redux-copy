@@ -5,10 +5,10 @@ import {
   Route,
 } from 'react-router-dom';
 
-import shortid from 'shortid';
+import uuidv4 from 'uuidv4';
 import './App.scss';
 
-import { FilmsList } from './components/FilmsList';
+import FilmsList from './components/FilmsList/FilmsList';
 import NewFilm from './components/NewFilm/NewFilm';
 import FormField from './components/FormField/FormField';
 import FilmDetails from './components/FilmDetails/FilmDetails';
@@ -45,7 +45,7 @@ export class App extends Component {
     imdbUrl,
   }) => {
     store.dispatch(addNewFilm({
-      id: shortid.generate(),
+      id: uuidv4(),
       title,
       description,
       imgUrl,
@@ -89,7 +89,7 @@ export class App extends Component {
     const { searchWord, error } = this.state;
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="page">
           <div className="content">
             <div className="box">

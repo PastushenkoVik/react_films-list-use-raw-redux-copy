@@ -1,23 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './FilmsList.scss';
 
 import { store } from '../../store/reducers';
 import FilmCard from '../FilmCard/FilmCard';
 
-export class FilmsList extends Component {
-  state = {
-    films: store.getState(),
-  };
+const FilmsList = () => {
+  const films = store.getState();
 
-  render() {
-    const { films } = this.state;
+  return (
+    <div className="films">
+      {films.map(film => (
+        <FilmCard key={film.id} {...film} />
+      ))}
+    </div>
+  );
+};
 
-    return (
-      <div className="films">
-        {films.map(film => (
-          <FilmCard key={film.id} {...film} />
-        ))}
-      </div>
-    );
-  }
-}
+export default FilmsList;
